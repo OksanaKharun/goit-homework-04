@@ -1,7 +1,7 @@
 :root {
     --primary-text-color: color: #434455;
     --title-text-color:color: #2E2F42;
-    --accent-color:#404BBF;;
+    --accent-color:#404BBF;
     --background-color: #FFFFFF;
     --card-set-gap: 20px
     
@@ -203,7 +203,7 @@ color: #FFFFFF;
     padding: 0;
     white-space: nowrap;
     clip-path: inset(100%);
-    clip: rect(0 0 0 0);
+    clip: rect(0,0,0,0);
     overflow: hidden;
 }
 
@@ -341,29 +341,65 @@ background-color:#FFFFFF;
 .card-cont {
     padding: 32px 16px;
 }
-
 .team-soc-list{
     display: flex;
-        padding: 0;
-        margin: 0;
-        width: 232px;
-        height: 40px;
-        justify-content: center;
-        gap: 24px;
+    justify-content: center;
+    gap: 24px;
 }
-   
-
-.team-soc-icon{
-    padding: 0;
-    border: none;
+.team-soc-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 40px;
     height: 40px;
-    background: #4D5AE5;
     border-radius: 50%;
-    text-align: center;
-    
+    background-color: #4D5AE5;
+}
+/*
+.team-soc-list {
+display: flex;
+justify-content: space-between;
+width: 232px;
+height: 40px;
+
+margin: 0;
+padding: 0;
+
+}
+.team-soc-link{
+   display: block;
+   width: 40px;
+   height: 40px;
+   border-radius: 50%;
+   background-color: #4D5AE5;
 }
 
+.instagram{
+    background-image: url(../images/instagram\ 2\(1\).svg);
+    background-repeat: no-repeat;
+        background-position: center;
+        background-size: 16px 16px;
+}
+.twitter{
+    background-image: url(../images/twitter\ 1\(1\).svg);
+    background-repeat: no-repeat;
+        background-position: center;
+        background-size: 16px 16px;
+}
+.facebook{
+    background-image: url(../images/facebook\ 1\(1\).svg);
+    background-repeat: no-repeat;
+        background-position: center;
+        background-size: 16px 16px;
+}
+
+.linkedin{
+    background-image: url(../images/linkedin\ 1\(1\).svg);
+    background-repeat: no-repeat;
+        background-position: center;
+        background-size: 16px 16px;
+}
+*/
 .customers{
     padding-top: 120px;
     padding-bottom: 120px;
@@ -434,7 +470,7 @@ background-color:#FFFFFF;
     padding: 0;
     white-space: nowrap;
     clip-path: inset(100%);
-    clip: rect(0 0 0 0);
+    clip: rect(0 ,0 ,0 ,0);
     overflow: hidden;
 }
 
