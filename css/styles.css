@@ -529,6 +529,9 @@ padding: 0;
 .footer-social{
     display: flex;
 }
+.footer-soc-logo{
+    margin-right: 120px;
+}
 /*---------------------------------Стилі для Portfolio----------------------------*/
 
 /*------------------BODY-----------------------*/
