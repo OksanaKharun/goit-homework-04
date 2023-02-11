@@ -455,6 +455,9 @@ padding: 0;
     border-color: var(--accent-color);
 
 }
+.customer-icon:is(:hover, :focus) {
+    fill: var(--accent-color);
+}
 .customer-link:is(:hover, :focus) .customer-icon {
     fill: var(--accent-color);
 
@@ -491,6 +494,7 @@ padding: 0;
     margin-bottom: 16px;
     width: 96px;
     height: 24px;
+    align-items: center;
 
    font-family: 'Roboto';
     font-style: normal;
