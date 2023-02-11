@@ -418,11 +418,19 @@ padding: 0;
 .customer-link{
     width: 100%;
     height: 100%;
-    border: 1px solid tomato;
-    border-radius: 5px;
+    border: 1px solid #8E8F99;
+    border-radius: 4px;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.customer-link:is(:hover, :focus) {
+    border-color: var(--accent-color);
+
+}
+.customer-link:is(:hover, :focus) .customer-icon {
+    fill: var(--accent-color);
+
 }
 /*-----------------------------------FOOTER-----------------------------------*/
 .footer {
