@@ -426,7 +426,7 @@ padding: 0;
 */
 .customers{
     padding-top: 120px;
-    padding-bottom: 120px;
+  
 }
 .customer-list{
     display: flex;
@@ -444,7 +444,7 @@ padding: 0;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 120px;
+    padding-bottom: 120px;
 }
 
 
@@ -455,7 +455,7 @@ padding: 0;
     border-color: var(--accent-color);
 
 }
-.customer-icon:is(:hover, :focus) {
+.customer-icon:hover, :focus {
     fill: var(--accent-color);
 }
 .customer-link:is(:hover, :focus) .customer-icon {
@@ -504,7 +504,7 @@ padding: 0;
 }
 .footer-soc-list {
     display: flex;
-    justify-content: center;
+    
     gap: 24px;
 }
 
@@ -517,11 +517,13 @@ padding: 0;
     border-radius: 50%;
     background-color: rgba(255, 255, 255, 0.1);
 }
-.footer-soc-link:hover,:focus{
+.footer-soc-link:hover,:focus {
     background-color: #31D0AA;
 }
 .footer-soc {
     display: block;
+    justify-content: center;
+    align-items: center;
 }
 /*---------------------------------Стилі для Portfolio----------------------------*/
 
