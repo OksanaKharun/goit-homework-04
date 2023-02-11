@@ -411,7 +411,7 @@ padding: 0;
 
 }
 .customer-item{
-    width: calc((100% - 150px) / 6);
+    width: calc((100% - 168px) / 6);
     height: 88px;
 
 }
@@ -424,6 +424,7 @@ padding: 0;
     align-items: center;
     justify-content: center;
 }
+/*
 .customer-icon{
    fill: currentColor; 
 }
@@ -435,6 +436,7 @@ padding: 0;
     fill: var(--accent-color);
 
 }
+*/
 /*-----------------------------------FOOTER-----------------------------------*/
 .footer {
     background-color: #2E2F42;
