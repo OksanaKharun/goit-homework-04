@@ -526,6 +526,9 @@ padding: 0;
     justify-content: center;
     align-items: center;
 }
+.footer-social{
+    display: flex;
+}
 /*---------------------------------Стилі для Portfolio----------------------------*/
 
 /*------------------BODY-----------------------*/
