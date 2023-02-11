@@ -424,6 +424,9 @@ padding: 0;
     align-items: center;
     justify-content: center;
 }
+.customer-icon{
+   fill: currentColor; 
+}
 .customer-link:is(:hover, :focus) {
     border-color: var(--accent-color);
 
