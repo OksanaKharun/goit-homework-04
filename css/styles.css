@@ -407,23 +407,13 @@ padding: 0;
 .customer-list{
     display: flex;
     gap: 24px;
-
-
 }
 .customer-item{
     width: calc((100% - 168px) / 6);
     height: 88px;
+    border: 1px solid hotpink;
+}
 
-}
-.customer-link{
-    width: 100%;
-    height: 100%;
-    border: 1px solid #8E8F99;
-    border-radius: 4px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 /*
 .customer-icon{
    fill: currentColor; 
@@ -490,7 +480,9 @@ padding: 0;
     border-radius: 50%;
     background-color: rgba(255, 255, 255, 0.1);
 }
-
+.footer-soc {
+    display: block;
+}
 /*---------------------------------Стилі для Portfolio----------------------------*/
 
 /*------------------BODY-----------------------*/
