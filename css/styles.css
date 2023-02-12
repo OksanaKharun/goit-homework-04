@@ -225,19 +225,7 @@ display: flex;
 .feature-item:last-child {
 margin-right: 0;
 }
-/*
-.feature-link {
-    width: 264px;
-    height: 112px;
-    background: #F4F4FD;
-    border-radius: 4px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 8px;
-    background-image: url(../images/antenna\ 1\(3\).svg);
-}
-*/
+
 
 .feature-item::before {
 
@@ -468,10 +456,9 @@ padding: 0;
     display: flex;
     align-items: center;
     justify-content: center;
-    fill: fill="#8e8f99";
+    fill: #8e8f99;
     
 }
-
 
 .customer-icon{
    fill: currentColor; 
