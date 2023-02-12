@@ -637,7 +637,7 @@ padding: 0;
     font-size: 16px;
     line-height: 1.5;   
     color: var(--primary-text-color);
-        
+    
 }
 
 
@@ -663,24 +663,33 @@ overflow: hidden;
     border: 1px solid #E7E9FC;
     border-top: none;
 }
-.card-conteiner:not(:hover) {
-    color: var(--primary-text-color);
-    
-}
+
 .services-item{
     border: 1px solid #E7E9FC;
         box-shadow: 0px 1px 6px 0px 
         rgba(46, 47, 66, 0.08);
 }
-
-.services-link .pic:hover,
-.services-link .pic:focus{
+/*
+.services-link :hover,
+.services-link :focus{
     box-shadow: 0px 1px 6px 0px 
     rgba(46, 47, 66, 0.08), 
     0px 1px 1px 0px
     rgba(46, 47, 66, 0.16),
      0px 2px 1px 0px
      rgba(46, 47, 66, 0.08);
+}
+*/
+.services-link{
+    text-decoration: none;
+    color: var(--primary-text-color);
+}
+
+.services-item:hover,
+.services-item:focus{
+box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08),
+        0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+        0px 2px 1px 0px rgba(46, 47, 66, 0.08);
 }
 
 
