@@ -220,11 +220,25 @@ display: flex;
 
     width: 264px;
     margin-right: 24px;
+    
 }
 .feature-item:last-child {
 margin-right: 0;
 }
 
+.feature-link {
+    width: 264px;
+    height: 112px;
+    background: #F4F4FD;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 8px;
+    
+
+}
+/*
 .feature-item::before {
 
     display:block;
@@ -252,6 +266,7 @@ margin-right: 0;
 .technologies-icon::before{
     background-image: url(../images/astronaut\ 1.png);
 }
+*/
 .feature-title {
     
     margin-bottom: 8px;
